@@ -19,10 +19,10 @@ public class MyApplication extends Application {
 
         if (BuildConfig.DEBUG) {
             System.out.println("DEV MODE");
-            Leanplum.setAppIdForDevelopmentMode("app_nQGF1lrbStJopxK41pzNwueB7jBbWp4Hl0Qqq1BsYNo", "dev_5yE7VOobZuvUrgoTouFDM7CvZTvD3gDeoze0VNqetTo");
+            Leanplum.setAppIdForDevelopmentMode("app_", "dev_");
         } else {
             System.out.println("PROD MODE");
-            Leanplum.setAppIdForProductionMode("app_nQGF1lrbStJopxK41pzNwueB7jBbWp4Hl0Qqq1BsYNo", "prod_a6cwir5070QOAaVmtkxRAgTD88J40rLWy9lSkvBfJk0");
+            Leanplum.setAppIdForProductionMode("app_", "prod_");
         }
 
         Leanplum.enableVerboseLoggingInDevelopmentMode();
