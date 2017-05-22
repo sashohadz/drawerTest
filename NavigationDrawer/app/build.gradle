@@ -26,8 +26,8 @@ dependencies {
     })
 
     compile 'com.android.support:appcompat-v7:25.0.0'
-    compile 'com.leanplum:Leanplum:2.2.1'
-    compile 'com.leanplum:UIEditor:+'
+    compile 'com.leanplum:Leanplum:2.2.2'
+    compile 'com.leanplum:UIEditor:2.2.2'
     compile 'com.android.support:design:25.0.0'
     compile 'com.android.support:support-v4:25.0.0'
     testCompile 'junit:junit:4.12'
